@@ -1,0 +1,75 @@
+.intro {
+    width: 100%;
+    &__wrapper {
+      width: 1200px;
+      margin: 50px auto;
+      background-image: url("../img/Bitmap.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px;
+      border-radius: 20px;
+      padding: 50px 80px;
+    }
+    &__title {
+      /* Great coffee made si */
+      width: 500px;
+      // font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      /* or 100% */
+  
+      color: #fefcf7;
+    }
+    &__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+      width: 400px;
+  
+      color: #fefcf7;
+  
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  
+    &__btn {
+      @include Btn();
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .intro {
+      &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        padding: 25px 30px;
+        text-align: center;
+        gap: 50px;
+      }
+      &__title {
+        /* Great coffee made si */
+        width: 300px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        /* or 100% */
+        text-align: center;
+  
+        color: #fefcf7;
+      }
+      &__text {
+        width: 300px;
+        margin: 20px 0;
+      }
+    }
+  }
+  

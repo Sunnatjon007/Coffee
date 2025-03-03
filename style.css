@@ -1,0 +1,271 @@
+.navbar {
+  width: 100%;
+}
+.navbar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+}
+.navbar__logo {
+  width: 200px;
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.navbar__link {
+  /* HOME */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  transition: all 0.3s linear;
+}
+.navbar__link:hover {
+  color: black;
+}
+.navbar__burger {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.navbar__burgerss {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.navbar__burgerss:nth-child(odd) {
+  width: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar__wrapper {
+    width: 90%;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .navbar__burger {
+    display: flex;
+  }
+}
+.intro {
+  width: 100%;
+}
+.intro__wrapper {
+  width: 1200px;
+  margin: 50px auto;
+  background-image: url("../img/Bitmap.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 20px;
+  padding: 50px 80px;
+}
+.intro__title {
+  /* Great coffee made si */
+  width: 500px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #fefcf7;
+}
+.intro__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  width: 400px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.intro__btn {
+  /* Group 3 */
+  width: 217px;
+  height: 56px;
+  background: #0e8784;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+}
+.intro__btn:hover {
+  background: #1ab8b6;
+  transition: all 0.3s linear;
+}
+
+@media only screen and (max-width: 480px) {
+  .intro__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 25px 30px;
+    text-align: center;
+    gap: 50px;
+  }
+  .intro__title {
+    /* Great coffee made si */
+    width: 300px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .intro__text {
+    width: 300px;
+    margin: 20px 0;
+  }
+}
+.collection {
+  width: 100%;
+}
+.collection__wrapper {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  margin: 50px auto;
+  background-image: url("../img/collections.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.collection__cards {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 150px;
+}
+.collection__card {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .collection__wrapper {
+    width: 90%;
+    min-height: 400px;
+    background-size: contain;
+  }
+  .collection__cards {
+    flex-direction: column;
+  }
+}
+.choose {
+  width: 100%;
+}
+.choose__wrapper {
+  position: relative;
+  width: 1200px;
+  margin: 50px auto;
+  height: 500px;
+  background-color: rgba(33, 28, 28, 0.712);
+  padding: 50px;
+  border-radius: 50px;
+}
+.choose__title {
+  /* Why choose us? */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #fefcf7;
+}
+.choose__text {
+  width: 540px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin: 20px auto;
+}
+.choose__cards {
+  position: absolute;
+  bottom: -200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.choose__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FEFCF7;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  width: 350px;
+  height: 382px;
+  background-color: #0e8784;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .choose {
+    margin-top: 900px;
+  }
+  .choose__wrapper {
+    width: 95%;
+    height: 800px;
+  }
+  .choose__text {
+    width: 100%;
+  }
+  .choose__cards {
+    flex-direction: column;
+    top: 400px;
+    left: 0;
+  }
+  .choose__card {
+    height: 382px;
+    width: 90%;
+  }
+  .choose__title {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+.collection {
+    width: 100%;
+  
+    &__wrapper {
+      position: relative;
+      width: 1200px;
+      height: 600px;
+      margin: 50px auto;
+      background-image: url("../img/collections.png");
+      background-repeat: no-repeat;
+      background-position: top;
+    }
+    &__cards {
+      position: absolute;
+      @include Display();
+      top: 150px;
+    }
+  
+    &__card {
+      text-align: center;
+      @include Display();
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .collection {
+      &__wrapper {
+        width: 90%;
+        min-height: 400px;
+        //   background-image: none;
+        background-size: contain;
+      }
+      &__cards {
+        flex-direction: column;
+      }
+    }
+  }
+  
