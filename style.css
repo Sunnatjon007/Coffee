@@ -18,12 +18,10 @@
   gap: 50px;
 }
 .navbar__link {
-  /* HOME */
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height, or 125% */
   letter-spacing: 0.923077px;
   text-transform: uppercase;
   color: #83888f;
@@ -41,7 +39,7 @@
 }
 .navbar__burgerss {
   width: 25px;
-  height: 3px;
+  height: 2px;
   background-color: black;
   border: none;
   border-radius: 5px;
@@ -76,13 +74,11 @@
   padding: 50px 80px;
 }
 .intro__title {
-  /* Great coffee made si */
   width: 500px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
-  /* or 100% */
   color: #fefcf7;
 }
 .intro__text {
@@ -90,7 +86,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  /* or 162% */
   width: 400px;
   color: #fefcf7;
   mix-blend-mode: normal;
@@ -106,7 +101,6 @@
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
-  /* identical to box height, or 139% */
   text-align: center;
   color: #fefcf7;
 }
@@ -127,13 +121,11 @@
     gap: 50px;
   }
   .intro__title {
-    /* Great coffee made si */
     width: 300px;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 40px;
-    /* or 100% */
     text-align: center;
     color: #fefcf7;
   }
@@ -193,12 +185,10 @@
   border-radius: 50px;
 }
 .choose__title {
-  /* Why choose us? */
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
-  /* identical to box height, or 120% */
   text-align: center;
   color: #fefcf7;
 }
@@ -208,7 +198,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  /* or 162% */
   text-align: center;
   color: #fefcf7;
   mix-blend-mode: normal;
@@ -268,4 +257,18 @@
   .choose__title {
     font-size: 30px;
   }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

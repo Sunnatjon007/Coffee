@@ -14,14 +14,11 @@
     }
   
     &__link {
-      /* HOME */
-  
-      // font-family: "Barlow";
+
       font-style: normal;
       font-weight: 700;
       font-size: 12px;
       line-height: 15px;
-      /* identical to box height, or 125% */
       letter-spacing: 0.923077px;
       text-transform: uppercase;
   
@@ -35,7 +32,7 @@
     }
   
     &__burger {
-      display: none;
+      display: none ;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -44,7 +41,7 @@
   
     &__burgerss {
       width: 25px;
-      height: 3px;
+      height: 2px;
       background-color: black;
       border: none;
       border-radius: 5px;
@@ -53,8 +50,7 @@
       width: 20px;
     }
   }
-  
-  // TELEFON qismi
+
   @media only screen and (max-width: 480px) {
     .navbar {
       &__wrapper {
