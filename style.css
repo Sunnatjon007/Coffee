@@ -271,4 +271,130 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.works {
+  width: 100%;
+  margin-top: 325px;
+}
+.works__wrapper {
+  width: 1200px;
+  margin: 200px auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 20px;
+  padding: 50px 80px;
+}
+.works__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+.works__img {
+  margin-top: 80px;
+  width: 815px;
+  height: 55px;
+}
+.works__cards {
+  margin-top: 70px;
+  display: flex;
+  gap: 95px;
+}
+.works__card {
+  width: 285px;
+  height: 355px;
+  margin: 40px auto;
+}
+.works__card__number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.works__card__title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+.works__card__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+}
+.works__btn {
+  /* Group 3 */
+  width: 217px;
+  height: 56px;
+  background: #0e8784;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+}
+.works__btn:hover {
+  background: #1ab8b6;
+  transition: all 0.3s linear;
+}
+
+.footer {
+  display: flex;
+  margin-top: 500px;
+  margin-bottom: 85px;
+  width: 100%;
+  background: #2C343E;
+  padding: 50px 0;
+}
+.footer__wrapper {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+  width: 200px;
+}
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px !important;
+  justify-content: center;
+  align-items: center;
+}
+.footer__link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  transition: all 0.3s linear;
+}
+.footer__link:hover {
+  color: white;
+}
+.footer__apps {
+  width: 120px;
+  height: 24px;
 }/*# sourceMappingURL=style.css.map */

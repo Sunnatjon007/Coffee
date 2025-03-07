@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    margin-top: 500px;
+    margin-bottom: 85px;
+    width: 100%;
+
+    background: #2C343E;
+    padding: 50px 0;
+
+    &__wrapper {
+        width: 1280px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        width: 200px;
+    }
+
+    &__list {
+        @include Display();
+        gap: 50px !important;
+        justify-content: center;
+        align-items:center;
+    }
+
+    &__link {
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+
+        color: #83888f;
+
+        transition: all 0.3s linear;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    &__apps {
+        width: 120px;
+        height: 24px;
+
+    }
+
+}

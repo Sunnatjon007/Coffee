@@ -1,0 +1,108 @@
+.works {
+    width: 100%;
+    margin-top: 325px;
+
+
+    &__wrapper {
+        width: 1200px;
+        margin: 200px auto;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        border-radius: 20px;
+        padding: 50px 80px;
+    }
+
+    &__title {
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+
+
+        color: #83888F;
+
+
+    }
+
+    &__img {
+        margin-top: 80px;
+        width: 815px;
+        height: 55px;
+    }
+
+
+    &__cards {
+        margin-top: 70px;
+        display: flex;
+        gap: 95px;
+
+    }
+
+    &__card {
+        width: 285px;
+        height: 355px;
+        margin: 40px auto;
+    }
+
+    &__card__number {
+
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+
+
+        color: #FDD6BA;
+
+
+    }
+
+
+    &__card__title {
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+
+
+        color: #333D4B;
+
+
+    }
+
+
+    &__card__text {
+
+
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        color: #333D4B;
+
+
+    }
+
+
+    &__btn {
+        // margin-top: 65px;
+        @include Btn();
+    }
+
+
+}
